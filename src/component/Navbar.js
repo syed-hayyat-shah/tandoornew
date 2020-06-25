@@ -27,6 +27,7 @@ class MyComponent extends Component {
       }
 
     render() {
+        console.log("a")
     return (
     
              <div className="header-area " id="home"  style={this.state.isSticky ? {backgroundColor: this.state.navBackground, position: "fixed", top: 0, left: 0, right: 0}: {backgroundColor: this.state.navBackground}}>
